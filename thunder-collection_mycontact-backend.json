@@ -1,0 +1,165 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mycontact-backend",
+    "dateExported": "2023-07-22T09:59:04.095Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f38b0685-1002-40c1-9570-753f019b8bd0",
+            "colId": "0f49e2ff-e75d-47a8-91b2-f8774a1e93d8",
+            "containerId": "",
+            "name": "user-login",
+            "url": "http://localhost:5001/api/users/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-22T09:55:54.016Z",
+            "modified": "2023-07-22T09:55:54.016Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"arunkjojo@gmailcom\",\n  \"password\":\"9400247717\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "df24d4ec-a7c7-4c7c-b233-ce4cad387531",
+            "colId": "0f49e2ff-e75d-47a8-91b2-f8774a1e93d8",
+            "containerId": "",
+            "name": "user-register",
+            "url": "http://localhost:5001/api/users/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-22T09:56:06.250Z",
+            "modified": "2023-07-22T09:56:06.250Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"Arun Jojo\",\n  \"email\":\"arunkjojo@gmailcom\",\n  \"password\":\"9400247717\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f2741625-2892-459f-8219-4422de88a19e",
+            "colId": "0f49e2ff-e75d-47a8-91b2-f8774a1e93d8",
+            "containerId": "",
+            "name": "user-current info",
+            "url": "http://localhost:5001/api/users/current",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-07-22T09:56:17.411Z",
+            "modified": "2023-07-22T09:56:17.411Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQXJ1biBKb2pvIiwiZW1haWwiOiJhcnVua2pvam9AZ21haWxjb20iLCJpZCI6IjY0YmJhNjI5NmFiNjMxMDY3MjFmNTQ5NSJ9LCJpYXQiOjE2OTAwMTkzNzgsImV4cCI6MTY5MDAyMDI3OH0.R-NljDh9xP3zh5b5euA3ZsFheTwCU1n6ii2q7OuMdYo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "59f1e66b-3865-4289-aef3-9b4fc13da99c",
+            "colId": "0f49e2ff-e75d-47a8-91b2-f8774a1e93d8",
+            "containerId": "",
+            "name": "contacts-get all",
+            "url": "http://localhost:5001/api/contacts/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-07-22T09:56:33.723Z",
+            "modified": "2023-07-22T09:56:33.723Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQXJ1biBKb2pvIiwiZW1haWwiOiJhcnVua2pvam9AZ21haWxjb20iLCJpZCI6IjY0YmJhNjI5NmFiNjMxMDY3MjFmNTQ5NSJ9LCJpYXQiOjE2OTAwMTkzNzgsImV4cCI6MTY5MDAyMDI3OH0.R-NljDh9xP3zh5b5euA3ZsFheTwCU1n6ii2q7OuMdYo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "62402bc9-0fc3-4af0-9db6-05035b89bc4d",
+            "colId": "0f49e2ff-e75d-47a8-91b2-f8774a1e93d8",
+            "containerId": "",
+            "name": "contacts- delete by id",
+            "url": "http://localhost:5001/api/contacts/64bba6626ab63106721f5499",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-07-22T09:56:46.883Z",
+            "modified": "2023-07-22T09:56:46.883Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQXJ1biBKb2pvIiwiZW1haWwiOiJhcnVua2pvam9AZ21haWxjb20iLCJpZCI6IjY0YmJhNjI5NmFiNjMxMDY3MjFmNTQ5NSJ9LCJpYXQiOjE2OTAwMTkzNzgsImV4cCI6MTY5MDAyMDI3OH0.R-NljDh9xP3zh5b5euA3ZsFheTwCU1n6ii2q7OuMdYo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "0991bd9d-3aae-49a0-911e-c769c2f933d9",
+            "colId": "0f49e2ff-e75d-47a8-91b2-f8774a1e93d8",
+            "containerId": "",
+            "name": "contacts- update by id",
+            "url": "http://localhost:5001/api/contacts/64bba6626ab63106721f5499",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-07-22T09:56:57.443Z",
+            "modified": "2023-07-22T09:56:57.443Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Arun Jojo\",\n  \"email\": \"arunkjojo@gmailcom\",\n  \"phone\": \"919400247717\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQXJ1biBKb2pvIiwiZW1haWwiOiJhcnVua2pvam9AZ21haWxjb20iLCJpZCI6IjY0YmJhNjI5NmFiNjMxMDY3MjFmNTQ5NSJ9LCJpYXQiOjE2OTAwMTkzNzgsImV4cCI6MTY5MDAyMDI3OH0.R-NljDh9xP3zh5b5euA3ZsFheTwCU1n6ii2q7OuMdYo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "30212f2d-c83c-4c3e-ab29-14b52f5e1d89",
+            "colId": "0f49e2ff-e75d-47a8-91b2-f8774a1e93d8",
+            "containerId": "",
+            "name": "contacts- get by id",
+            "url": "http://localhost:5001/api/contacts/64bba6626ab63106721f5499",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-07-22T09:58:45.037Z",
+            "modified": "2023-07-22T09:58:45.037Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQXJ1biBKb2pvIiwiZW1haWwiOiJhcnVua2pvam9AZ21haWxjb20iLCJpZCI6IjY0YmJhNjI5NmFiNjMxMDY3MjFmNTQ5NSJ9LCJpYXQiOjE2OTAwMTkzNzgsImV4cCI6MTY5MDAyMDI3OH0.R-NljDh9xP3zh5b5euA3ZsFheTwCU1n6ii2q7OuMdYo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "d3c31e55-c741-4977-9089-b5ca818dd881",
+            "colId": "0f49e2ff-e75d-47a8-91b2-f8774a1e93d8",
+            "containerId": "",
+            "name": "contacts-create",
+            "url": "http://localhost:5001/api/contacts/",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-07-22T09:58:56.317Z",
+            "modified": "2023-07-22T09:58:56.317Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Arun Jojo\",\n  \"email\": \"arunkjojo@gmailcom\",\n  \"phone\": \"9400247717\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQXJ1biBKb2pvIiwiZW1haWwiOiJhcnVua2pvam9AZ21haWxjb20iLCJpZCI6IjY0YmJhNjI5NmFiNjMxMDY3MjFmNTQ5NSJ9LCJpYXQiOjE2OTAwMTkzNzgsImV4cCI6MTY5MDAyMDI3OH0.R-NljDh9xP3zh5b5euA3ZsFheTwCU1n6ii2q7OuMdYo"
+            },
+            "tests": []
+        }
+    ]
+}
